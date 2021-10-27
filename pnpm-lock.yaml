@@ -57,7 +57,6 @@ importers:
       normalize-wheel-es: ^1.1.0
       prettier: ^2.4.1
       pretty-quick: ^3.1.1
-      resize-observer-polyfill: ^1.5.1
       rimraf: ^3.0.2
       rollup: ^2.58.0
       rollup-plugin-css-only: ^3.1.0
@@ -91,7 +90,6 @@ importers:
       lodash: 4.17.21
       memoize-one: 6.0.0
       normalize-wheel-es: 1.1.0
-      resize-observer-polyfill: 1.5.1
     devDependencies:
       '@commitlint/cli': 13.2.1
       '@commitlint/config-conventional': 13.2.0
@@ -155,7 +153,7 @@ importers:
       axios: ^0.23.0
       clipboard-copy: ^4.0.1
       cross-env: ^7.0.3
-      element-plus: npm:element-plus@1.1.0-beta.20
+      element-plus: npm:element-plus@latest
       markdown-it: ^12.2.0
       markdown-it-container: ^3.0.0
       marked: ^3.0.7
@@ -167,7 +165,7 @@ importers:
       '@vueuse/core': 6.7.3_vue@3.2.20
       axios: 0.23.0
       clipboard-copy: 4.0.1
-      element-plus: 1.1.0-beta.20_vue@3.2.20
+      element-plus: 1.1.0-beta.24_vue@3.2.20
       marked: 3.0.7
       normalize.css: 8.0.1
       nprogress: 0.2.0
@@ -196,7 +194,6 @@ importers:
       lodash: ^4.17.21
       memoize-one: ^6.0.0
       normalize-wheel-es: ^1.1.0
-      resize-observer-polyfill: ^1.5.1
     dependencies:
       '@element-plus/icons': 0.0.11
       '@popperjs/core': 2.10.2
@@ -206,7 +203,6 @@ importers:
       lodash: 4.17.21
       memoize-one: 6.0.0
       normalize-wheel-es: 1.1.0
-      resize-observer-polyfill: 1.5.1
 
   packages/hooks:
     specifiers: {}
@@ -4026,11 +4022,12 @@ packages:
     resolution: {integrity: sha512-2jtSwgyiRzybHRxrc2nKI+39wH3AwQgn+sogQ+q814gv8hIFwrcZbV07Ea9f8AmK0ufPVZUvvAG1uZJ+obV4Jw==}
     dev: true
 
-  /element-plus/1.1.0-beta.20_vue@3.2.20:
-    resolution: {integrity: sha512-5rBrLzfKGz4urSxqKi1tihylyotSswMCKdXpCAJAfRggMjtS1NfqVtrCYEPdjphmP2JHsj8TisDvbRTScRKF0Q==}
+  /element-plus/1.1.0-beta.24_vue@3.2.20:
+    resolution: {integrity: sha512-dmo61e/D6mwJVacMhxOMSPb5sZPt/FPsuQQfsOs1kJWkhGDmTlny/sZvgIQr1z0zh3pjlJadGAlNS+0nySPMmw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
+      '@element-plus/icons': 0.0.11
       '@popperjs/core': 2.10.2
       '@vueuse/core': 6.1.0_vue@3.2.20
       async-validator: 4.0.7
